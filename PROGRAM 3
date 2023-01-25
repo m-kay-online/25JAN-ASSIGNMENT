@@ -1,0 +1,17 @@
+/*Write a program that prompts the user to enter a floating point number 
+and then converts it to an integer by using a type cast*/
+
+#include <iostream>
+using namespace std;
+
+int main(){
+    
+    float f;
+    int i;
+    cout<<"Enter an Floating Point Number:";cin>>f;
+    cout<<"\nEntered Float: "<<f;
+    
+    i = static_cast<int>(f);
+    
+    cout<<"\n After Conversion: "<<i;
+}
